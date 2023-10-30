@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>River's Edge</title>
+
+    <!--css for header-->
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <script src="../Scripts/Script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./Script.js"></script>
+  </head>
+  <body>
+    <!--Back Audio File-->
+    <audio autoplay="" loop id="backMusic">
+      <source src="../Img/backmic.mp3" />
+    </audio>
+
+    <!--header section-->
+
+    <section class="header">
+      <video autoplay loop muted plays-inline class="back-vedio">
+        <source src="../Img/back.mp4" />
+      </video>
+      <!--navigation bar-->
+      <nav>
+        <a href="../index.html"><img src="../Img/LOGO.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="#">ROOMS</a></li>
+            <li><a href="#">NEWS & MEDIA</a></li>
+            <li><a href="#" class="Active">COLLECTIONS</a></li>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="../contactUs/ContactUs.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+      </nav>
+
+      <!--detaisl-->
+      <div class="g-details">
+        <div class="g-sec01">
+          <h1>This Is Our Collection</h1>
+          <p>
+            Explore the picturesque River's Edge Villa, where nature's beauty
+            meets refined elegance. Our gallery showcases the stunning vistas,
+            charming interiors, and serene ambiance that await you. Immerse
+            yourself in a world of tranquil riverside views, lush gardens, and
+            tastefully designed spaces. Each image invites you to experience the
+            perfect blend of modern luxury and natural serenity that defines
+            River's Edge Villa.
+          </p>
+          <a href="#sections">Explore More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--galary section-->
+
+    <div class="gallery" id="sections">
+      <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="BedRoom">Bed Rooms</li>
+        <li class="buttons" data-filter="bathroom">Bath Rooms</li>
+        <li class="buttons" data-filter="Kitchen">Kitchen</li>
+        <li class="buttons" data-filter="garden">Garden</li>
+      </ul>
+
+      <div class="image-container">
+
+
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/b10.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/b11.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r12.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r13.jpg" alt="" />
+        </a>
+
+
+
+
+
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k1.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k2.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k4.jpg" alt="" />
+        </a>
+
+        <a href="#" class="image Kitchen">
+            <img src="./GImg/k6.jpg" alt="" />
+        </a>
+
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r1.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r2.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r3.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r4.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+          <img src="./GImg/r5.jpg" alt="" />
+        </a>
+        <a href="#" class="image BedRoom">
+            <img src="./GImg/r7.jpg" alt="" />
+        </a>
+
+
+
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k10.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k12.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k14.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k11.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+          <img src="./GImg/k13.jpg" alt="" />
+        </a>
+        <a href="#" class="image Kitchen">
+            <img src="./GImg/k15.jpg" alt="" />
+        </a>
+
+
+        <a href="#" class="image bathroom">
+            <img src="./GImg/b1.jpg" alt="" />
+          </a>
+          <a href="#" class="image bathroom">
+            <img src="./GImg/b3.jpg" alt="" />
+          </a>
+          <a href="#" class="image bathroom">
+            <img src="./GImg/b4.jpg" alt="" />
+          </a>
+          <a href="#" class="image bathroom">
+            <img src="./GImg/b5.jpg" alt="" />
+          </a>
+          <a href="#" class="image bathroom">
+              <img src="./GImg/b2.jpg" alt="" />
+          </a>
+        
+          <a href="#" class="image garden">
+            <img src="./GImg/g1.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+            <img src="./GImg/g2.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+            <img src="./GImg/g3.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+            <img src="./GImg/g4.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+            <img src="./GImg/g5.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+              <img src="./GImg/g7.jpg" alt="" />
+          </a>
+          <a href="#" class="image garden">
+            <img src="./GImg/g6.jpg" alt="" />
+        </a>
+
+
+      </div>
+    </div>
+
+    <!--footer section-->
+    <footer>
+      <div class="f-row">
+        <div class="f-col">
+          <img src="./Img/LOGO.png" alt="" class="logo" width="120px">
+          <p>Discover tranquility at River's Edge Villa. Immerse yourself in nature's embrace, where serenity meets luxury. Your perfect retreat awaits.</p>
+        </div>
+        <div class="f-col">
+          <h3>Quick - Contact</h3>
+          <p>Hettiwaththa</p>
+          <p>Denipitiya , Weligama</p>
+          <p>Mathara , 81700 , Sri Lanka</p>
+          <p class="email-id">Mail - River's.E@yahoo.com</p>
+          <h4>+9476 27 12200</h4>
+        </div>
+        <div class="f-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <br>
+          <div class="find-us">
+            <h4>Find Us On</h4>
+            <br>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-col">
+          <h3>Subscribe Now</h3>
+          <form action="">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" name="sub-email" id="" placeholder="  abc@gmail.com" style="background-color: transparent;border: none;color: #fff;outline: none;">
+            <button type="submit" style="background-color: transparent;border: none;color: #fff;cursor: pointer;"><i class="fa-solid fa-arrow-right" class="form-btn"></i></button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!--script code for galary and background music-->
+
+    <script>
+            $(document).ready(function(){
+
+            $('.buttons').click(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+
+                var filter = $(this).data('filter');
+
+                if (filter == 'all') {
+                    $('.image').show(400);
+                } else {
+                    $('.image').not('.'+filter).hide(200);
+                    $('.image').filter('.'+filter).show(400);
+                }
+            });
+
+            $('.gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+
+            });
+
+            var navlinks = document.getElementById("navLinks");
+
+            function openMenu(){
+            navlinks.style.right = "0";
+            }
+
+            function hideMenu() {
+            navlinks.style.right = "-200px";
+            }
+
+            window.addEventListener('click' , () => {
+                document.getElementById("backMusic").play();
+            });
+
+    </script>
+  </body>
+</html>
