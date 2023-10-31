@@ -1,51 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>River's Edge</title>
 
     <!--link style sheet-->
-    <link rel="stylesheet" href="./news.css">
-    <link rel="stylesheet" href="../style/style.css">
-</head>
-<body>
-    <section class="header">
+    <link rel="stylesheet" href="./news.css" />
+    <link rel="stylesheet" href="../style/style.css" />
 
-        <video autoplay loop muted plays-inline class="back-vedio">
-          <source src="../Img/back.mp4">
-        </video>
-        <!--navigation bar-->
-        <nav>
-          <a href="index.html"><img src="./Img/LOGO.png" alt=""></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="../index.html" >HOME</a></li>
-              <li><a href="#">ROOMS</a></li>
-              <li><a href="#" class="Active">NEWS & MEDIA</a></li>
-              <li><a href="../gallery/gallery.html">COLLECTIONS</a></li>
-              <li><a href="#">OUR STORY</a></li>
-              <li><a href="../contactUs//ContactUs.html">CONTACT US</a></li>
+    <!--Font awosme CDN-->
+    <script src="https://use.fontawesome.com/c1677d3ffe.js"></script>
+    <script src="https://use.fontawesome.com/44fc6700e9.js"></script>
+    <script defer src="./Scripts/Script.js"></script>
+    <!--Font awosme 4 CDN-->
+    <script
+      src="https://kit.fontawesome.com/0fc63aaa62.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--custom google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <section class="header">
+      <video autoplay loop muted plays-inline class="back-vedio">
+        <source src="../Img/back.mp4" />
+      </video>
+      <!--navigation bar-->
+      <nav>
+        <a href="index.html"><img src="../Img/LOGO.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="#">ROOMS</a></li>
+            <li><a href="#" class="Active">NEWS & MEDIA</a></li>
+            <li><a href="../gallery/gallery.html">COLLECTIONS</a></li>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="../contactUs//ContactUs.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>News & Media</h1>
+        <br />
+        <p>
+          Welcome to River's Edge Villa, where we curate the latest news and
+          media to enhance your travel experience in Lanka. Stay updated with
+          the most exciting events, local attractions, and insider tips to make
+          the most of your journey. Let us be your guide to discovering the
+          hidden gems and unforgettable moments that Lanka has to offer.
+        </p>
+        <br /><br />
+        <a href="#welcome" class="hero-btn"
+          >Visit Us To Know More |
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <!--footer section-->
+    <!--footer section-->
+    <footer>
+      <div class="f-row">
+        <div class="f-col">
+          <img src="./Img/LOGO.png" alt="" class="logo" width="120px" />
+          <p>
+            Discover tranquility at River's Edge Villa. Immerse yourself in
+            nature's embrace, where serenity meets luxury. Your perfect retreat
+            awaits.
+          </p>
+        </div>
+        <div class="f-col">
+          <h3>Quick - Contact</h3>
+          <p>Hettiwaththa</p>
+          <p>Denipitiya , Weligama</p>
+          <p>Mathara , 81700 , Sri Lanka</p>
+          <p class="email-id">Mail - River's.E@yahoo.com</p>
+          <h4>+9476 27 12200</h4>
+        </div>
+        <div class="f-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <br />
+          <div class="find-us">
+            <h4>Find Us On</h4>
+            <br />
+            <ul class="social-links-footer">
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-tripadvisor" aria-hidden="true"></i
+                ></a>
+              </li>
             </ul>
           </div>
-          <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
-        </nav>
-  
-        <div class="text-box">
-          <h1>News & Media</h1>
-          <br>
-          <p>
-            Welcome to River's Edge Villa, where we curate the latest news and media to enhance 
-            your travel experience in Lanka. Stay updated with the most exciting events, local 
-            attractions, and insider tips to make the most of your journey. Let us be your guide to 
-            discovering the hidden gems and unforgettable moments that Lanka has to offer.
-          </p>
-          <br><br>
-          <a href="#welcome" class="hero-btn">Visit Us To Know More | <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </a>
         </div>
-  
-      </section>
-</body>
+        <div class="f-col">
+          <h3>Subscribe Now</h3>
+          <form action="">
+            <i class="fa-regular fa-envelope"></i>
+            <input
+              type="email"
+              name="sub-email"
+              id=""
+              placeholder="  abc@gmail.com"
+              style="
+                background-color: transparent;
+                border: none;
+                color: #fff;
+                outline: none;
+              "
+            />
+            <button
+              type="submit"
+              style="
+                background-color: transparent;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+              "
+            >
+              <i class="fa-solid fa-arrow-right" class="form-btn"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var navlinks = document.getElementById("navLinks");
+
+      function openMenu() {
+        navlinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+
+      window.addEventListener("click", () => {
+        document.getElementById("backMusic").play();
+      });
+    </script>
+  </body>
 </html>

@@ -747,4 +747,8 @@ ul li a{
   .r-f-sec01>.de3{
     font-size: 12px !important;
   }
+
+  .social-links-footer>li{
+    padding-left:30px ;
+  }
 }
