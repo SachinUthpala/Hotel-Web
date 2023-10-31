@@ -124,7 +124,7 @@
 
           <!--  *******   Form Starts   *******  -->
 
-          <form action="https://formsubmit.co/gunasekara.s.u.d.a@email.com" method="post" class="messageForm">
+          <form action="https://formsubmit.co/gunasekara.s.u.d.a@gmail.com" method="POST" class="messageForm">
 
             <div class="inputGroup halfWidth">
               <input type="text" name="name" required="required">
@@ -132,7 +132,7 @@
             </div>
 
             <div class="inputGroup halfWidth">
-              <input type="text" name="email" required="required">
+              <input type="text" type="email" name="email" required="required">
               <label>Email</label>
             </div>
 
@@ -145,7 +145,12 @@
               <textarea required="required" name="massage"></textarea>
               <label>Say Something</label>
             </div>
-
+            <!--table type-->
+            <input type="hidden" name="_template" value="table">
+            <!--for disable capacha-->
+            <!--<input type="hidden" name="_captcha" value="false">-->
+            <!--re direct page-->
+            <input type="hidden" name="_next" value="http://localhost:5501/contactUs/ContactUs.html">
             <div class="inputGroup fullWidth">
               <button type="submit">Send Message</button>
             </div>
