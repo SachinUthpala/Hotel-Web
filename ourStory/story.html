@@ -11,6 +11,49 @@
     <link rel="stylesheet" href="./../style/style.css">
 </head>
 <body>
+
+    <audio autoplay="" loop id="backMusic">
+        <source src="./../Img/backmic.mp3">
+    </audio>
+    
+    <!--Header Section-->
+    <section class="header">
+    
+        <video autoplay loop muted plays-inline class="back-vedio">
+            <source src="../Img/back.mp4">
+        </video>
+        <!--navigation bar-->
+        <nav>
+            <a href="index.html"><img src="./Img/LOGO.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html" >HOME</a></li>
+                    <li><a href="#">ROOMS</a></li>
+                    <li><a href="../News/news.html">NEWS & MEDIA</a></li>
+                    <li><a href="../gallery/gallery.html">COLLECTIONS</a></li>
+                    <li><a href="#" class="Active">OUR STORY</a></li>
+                    <li><a href="../contactUs/ContactUs.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+        </nav>
+    
+        <div class="text-box">
+            <h1>About Us</h1>
+            <br>
+            <p>
+                Water's Edge: Where luxury living harmoniously blends with unparalleled views.
+                Our villa, nestled on serene shores, offers opulent amenities and awe-inspiring vistas.
+                Wake up to the beauty of sparkling waters and sunsets that paint the sky.
+            </p>
+            <br><br>
+            <a href="#welcome" class="hero-btn">Visit Us To Know More | <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    
+    </section>
+
     
 </body>
 </html>
