@@ -99,7 +99,7 @@
 .gallery{
     width: 100%;
     height: auto;
-    background:#eee;
+    background: linear-gradient(#ffffffe9, #ffffffe9), url(../Img/vecteezy_indian-traditional-and-cultural-rangoli-alpona-kolam-or_4297223-removebg-preview.png);
     padding-bottom: 100px;
 }
 
