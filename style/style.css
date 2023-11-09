@@ -551,7 +551,8 @@ ul li a{
 
 .i-form>iframe{
   border-radius: 10px;
-
+  width: 550;
+  height: 400;
 }
 
 
@@ -752,5 +753,40 @@ ul li a{
 
   .social-links-footer>li{
     padding-left:30px ;
+  }
+
+
+  .inquery{
+    width: 100%;
+    height: auto;
+  }
+
+  .topic{
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .inqureDetails{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .i-dt{
+    padding-bottom: 30px;
+  }
+
+  .i-form>iframe{
+    width: 200;
+    height: 150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .i-form{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
   }
 }
