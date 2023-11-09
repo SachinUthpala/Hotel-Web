@@ -72,6 +72,10 @@ nav img{
   transition: 0.54s;
 }
 
+.nav-links ul .Active:hover:after {
+  width: 0%;
+}
+
 /*animation section*/
 .hiddenx{
   opacity: 0;
@@ -551,8 +555,8 @@ ul li a{
 
 .i-form>iframe{
   border-radius: 10px;
-  width: 550;
-  height: 400;
+  width: 500px;
+  height: 400px;
 }
 
 
