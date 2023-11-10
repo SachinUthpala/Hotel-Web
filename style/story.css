@@ -1,77 +1,93 @@
-.ourstory01{
-   width: 100%;
-   height: autos; 
-   background: linear-gradient(#ffffffe9,#ffffffe9),url(../Img/vecteezy_indian-traditional-and-cultural-rangoli-alpona-kolam-or_4297223-removebg-preview.png);
+.ourstory01 {
+  width: 100%;
+  height: autos;
+  background: linear-gradient(#ffffffe9, #ffffffe9),
+    url(../Img/vecteezy_indian-traditional-and-cultural-rangoli-alpona-kolam-or_4297223-removebg-preview.png);
 }
 
-.containerdiv{
-    padding: 50px 60px;
+.containerdiv {
+  padding: 50px 60px;
 }
 
-.containerdiv>h1{
-    font-size: 50px;
-    color: #000000;
-    font-family: 'Rajdhani', sans-serif;
+.containerdiv > h1 {
+  font-size: 50px;
+  color: #000000;
+  font-family: "Rajdhani", sans-serif;
 }
 
-.contentst{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.contentst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.contentst>img{
-    margin-right: 50px;
-    border-radius: 10px;
-    box-shadow: rgba(230, 1, 1, 0.15) 2.4px 2.4px 3.2px;
+.contentst > img {
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(230, 1, 1, 0.15) 2.4px 2.4px 3.2px;
 }
 
-.para{
-    padding: 25px 150px 30px 10px;
-    color: #272727;
-    line-height: 35px;
-
+.para {
+  padding: 25px 150px 30px 10px;
+  color: #272727;
+  line-height: 35px;
 }
 
-.sign{
-    padding: 30px 0 0 100px;
-    font-size: 30px;
-    font-family: 'Great Vibes', cursive;
+.sign {
+  padding: 30px 0 0 100px;
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
 }
 
+.para2 {
+  padding: 20px 40px 30px 40px;
+  color: #272727;
+  line-height: 35px;
+}
+
+.sign2 {
+  padding: 30px 0 0 600px;
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+}
 
 /*for responsive*/
 
-@media(max-width:700px){
+@media (max-width: 700px) {
+  .containerdiv {
+    padding: 0;
+  }
 
-    .containerdiv{
-        padding: 0;
-    }
+  .contentst {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .contentst{
-        display: flex;
-        flex-direction: column;
-    }
+  .contentst > img {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .contentst>img{
-        margin-top: 30px;
-        margin-bottom: 25px;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-    }
+  .para {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 
-    .para{
-        padding: 10px;
-        text-align: center;
-        padding-bottom: 20px;
-    }
+  .para2 {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 
-    .containerdiv>h1{
-        text-align: center;
-        font-size: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  .containerdiv > h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
