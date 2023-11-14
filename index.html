@@ -50,6 +50,9 @@
 
 <body>
 
+  <div id="preloader">
+  </div>
+
     <audio autoplay="" loop id="backMusic">
       <source src="./Img/backmic.mp3">
     </audio>
@@ -354,6 +357,14 @@
         window.addEventListener('click' , () => {
           document.getElementById("backMusic").play();
       });
+    </script>
+
+
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load" , function(){
+        loader.style.display = "none";
+      })
     </script>
 
 </body>

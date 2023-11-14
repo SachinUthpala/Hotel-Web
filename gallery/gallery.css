@@ -20,13 +20,11 @@
     background-position: 0 0;
     animation: back 20s linear infinite;
     padding:0 0 40px 0;
-    font-family: 'Playfair Display', serif;
 }
 
 .g-sec01>p{
     color: #ffffff7c;
     line-height: 28px;
-    font-family: 'Dancing Script', cursive;
     padding-bottom: 70px;
     font-size: 17px;
     padding-left: 20px;
