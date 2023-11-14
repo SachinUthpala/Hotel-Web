@@ -76,41 +76,6 @@ nav img{
   width: 0%;
 }
 
-/*animation section*/
-.hiddenx{
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 2s;
-}
-
-.showx{
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
-.hiddeny{
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(100%);
-  transition: all 2s;
-}
-
-.showy{
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
-.feacture-col:nth-child(2){
-  transition-delay: 200ms;
-}
-
-.feacture-col:nth-child(3){
-  transition-delay: 300ms;
-}
-/*end of animation section*/
 nav .fa{
   display: none;
 }
@@ -805,3 +770,45 @@ ul li a{
   position: fixed;
   z-index: 1000;
 }
+
+
+
+
+
+
+/*animation section*/
+.hiddenx {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.showx {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.hiddeny {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 2s;
+}
+
+.showy {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.feacture-col:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.feacture-col:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+/*end of animation section*/
