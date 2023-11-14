@@ -1,194 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revir' Edge Villa</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revir' Edge Villa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font awosme CDN-->
+    <script src="https://use.fontawesome.com/c1677d3ffe.js"></script>
+    <script src="https://use.fontawesome.com/44fc6700e9.js"></script>
+    <!--Font awosme 4 CDN-->
+    <script
+      src="https://kit.fontawesome.com/0fc63aaa62.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <!--Font awosme CDN-->
-  <script src="https://use.fontawesome.com/c1677d3ffe.js"></script>
-  <script src="https://use.fontawesome.com/44fc6700e9.js"></script>
-  <!--Font awosme 4 CDN-->
-  <script src="https://kit.fontawesome.com/0fc63aaa62.js" crossorigin="anonymous"></script>
+    <!--css link-->
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/ContactStyle.css" />
+  </head>
 
-  <!--css link-->
-  <link rel="stylesheet" href="../style/style.css">
-  <link rel="stylesheet" href="../style/ContactStyle.css">
-</head>
+  <body>
+    <div id="preloader"></div>
 
-<body>
+    <section class="header">
+      <video autoplay loop muted plays-inline class="back-vedio">
+        <source src="../Img/back.mp4" />
+      </video>
 
-  <section class="header">
+      <!--Back Audio File-->
+      <audio autoplay="" loop id="backMusic">
+        <source src="../Img/backmic.mp3" />
+      </audio>
+      <!--navigation bar-->
+      <nav>
+        <a href="index.html"><img src="../Img/LOGO.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./../index.html">HOME</a></li>
+            <li><a href="#">ROOMS</a></li>
+            <li><a href="../News/news.html">NEWS & MEDIA</a></li>
+            <li><a href="../gallery/gallery.html">GALLERY</a></li>
+            <li><a href="../ourStory/story.html">OUR STORY</a></li>
+            <li><a href="#" class="Active">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+      </nav>
+      <div class="container">
+        <main class="row">
+          <!--  *******   Left Section (Column) Starts   *******  -->
 
-    <video autoplay loop muted plays-inline class="back-vedio">
-      <source src="../Img/back.mp4">
-    </video>
+          <section class="col left">
+            <!--  *******   Title Starts   *******  -->
 
-    <!--Back Audio File-->
-    <audio autoplay="" loop id="backMusic">
-      <source src="../Img/backmic.mp3">
-    </audio>
-    <!--navigation bar-->
-    <nav>
-      <a href="index.html"><img src="../Img/LOGO.png"></a>
-      <div class="nav-links" id="navLinks">
-        <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-        <ul>
-          <li><a href="./../index.html">HOME</a></li>
-          <li><a href="#">ROOMS</a></li>
-          <li><a href="../News/news.html">NEWS & MEDIA</a></li>
-          <li><a href="../gallery/gallery.html">GALLERY</a></li>
-          <li><a href="../ourStory/story.html">OUR STORY</a></li>
-          <li><a href="#" class="Active">CONTACT US</a></li>
-        </ul>
+            <div class="contactTitle">
+              <h2>Get In Touch</h2>
+              <p>Wa Hear To Listen You</p>
+            </div>
+
+            <!--  *******   Title Ends   *******  -->
+
+            <!--  *******   Contact Info Starts   *******  -->
+
+            <div class="contactInfo">
+              <div class="iconGroup">
+                <div class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="details">
+                  <span>Phone</span>
+                  <span>+94 76 2712 200</span>
+                </div>
+              </div>
+
+              <div class="iconGroup">
+                <div class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="details">
+                  <span>Email</span>
+                  <span>River'sedge@yahoo.com</span>
+                </div>
+              </div>
+
+              <div class="iconGroup">
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="details">
+                  <span>Location</span>
+                  <span
+                    >Hettiwaththa,<br />Denipitiya,Mathara,<br />Sri Lanka</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--  *******   Contact Info Ends   *******  -->
+
+            <!--  *******   Social Media Starts   *******  -->
+
+            <div class="socialMedia">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <!--  *******   Social Media Ends   *******  -->
+          </section>
+
+          <!--  *******   Left Section (Column) Ends   *******  -->
+
+          <!--  *******   Right Section (Column) Starts   *******  -->
+
+          <section class="col right">
+            <!--  *******   Form Starts   *******  -->
+
+            <form
+              action="https://formsubmit.co/gunasekara.s.u.d.a@gmail.com"
+              method="POST"
+              class="messageForm"
+            >
+              <div class="inputGroup halfWidth">
+                <input type="text" name="name" required="required" />
+                <label>Your Name</label>
+              </div>
+
+              <div class="inputGroup halfWidth">
+                <input
+                  type="text"
+                  type="email"
+                  name="email"
+                  required="required"
+                />
+                <label>Email</label>
+              </div>
+
+              <div class="inputGroup fullWidth">
+                <input type="text" name="subject" required="required" />
+                <label>Subject</label>
+              </div>
+
+              <div class="inputGroup fullWidth">
+                <textarea required="required" name="massage"></textarea>
+                <label>Say Something</label>
+              </div>
+              <!--table type-->
+              <input type="hidden" name="_template" value="table" />
+              <!--for disable capacha-->
+              <!--<input type="hidden" name="_captcha" value="false">-->
+              <!--re direct page-->
+              <input
+                type="hidden"
+                name="_next"
+                value="http://localhost:5501/contactUs/ContactUs.html"
+              />
+              <div class="inputGroup fullWidth">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+
+            <!--  *******   Form Ends   *******  -->
+          </section>
+
+          <!--  *******   Right Section (Column) Ends   *******  -->
+        </main>
       </div>
-      <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
-    </nav>
-    <div class="container">
-      <main class="row">
+    </section>
 
-        <!--  *******   Left Section (Column) Starts   *******  -->
+    <!--script for togel menu-->
 
-        <section class="col left">
+    <script>
+      var navlinks = document.getElementById("navLinks");
 
-          <!--  *******   Title Starts   *******  -->
+      function openMenu() {
+        navlinks.style.right = "0";
+      }
 
-          <div class="contactTitle">
-            <h2>Get In Touch</h2>
-            <p>Wa Hear To Listen You</p>
-          </div>
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
 
-          <!--  *******   Title Ends   *******  -->
+      window.addEventListener("click", () => {
+        document.getElementById("backMusic").play();
+      });
+    </script>
 
-          <!--  *******   Contact Info Starts   *******  -->
-
-          <div class="contactInfo">
-
-            <div class="iconGroup">
-              <div class="icon">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div class="details">
-                <span>Phone</span>
-                <span>+94 76 2712 200</span>
-              </div>
-            </div>
-
-            <div class="iconGroup">
-              <div class="icon">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div class="details">
-                <span>Email</span>
-                <span>River'sedge@yahoo.com</span>
-              </div>
-            </div>
-
-            <div class="iconGroup">
-              <div class="icon">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div class="details">
-                <span>Location</span>
-                <span>Hettiwaththa,<br>Denipitiya,Mathara,<br>Sri Lanka</span>
-              </div>
-            </div>
-
-          </div>
-
-          <!--  *******   Contact Info Ends   *******  -->
-
-          <!--  *******   Social Media Starts   *******  -->
-
-          <div class="socialMedia">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
-
-          <!--  *******   Social Media Ends   *******  -->
-
-        </section>
-
-        <!--  *******   Left Section (Column) Ends   *******  -->
-
-        <!--  *******   Right Section (Column) Starts   *******  -->
-
-        <section class="col right">
-
-          <!--  *******   Form Starts   *******  -->
-
-          <form action="https://formsubmit.co/gunasekara.s.u.d.a@gmail.com" method="POST" class="messageForm">
-
-            <div class="inputGroup halfWidth">
-              <input type="text" name="name" required="required">
-              <label>Your Name</label>
-            </div>
-
-            <div class="inputGroup halfWidth">
-              <input type="text" type="email" name="email" required="required">
-              <label>Email</label>
-            </div>
-
-            <div class="inputGroup fullWidth">   
-              <input type="text" name="subject" required="required">
-              <label>Subject</label>
-            </div>
-
-            <div class="inputGroup fullWidth">
-              <textarea required="required" name="massage"></textarea>
-              <label>Say Something</label>
-            </div>
-            <!--table type-->
-            <input type="hidden" name="_template" value="table">
-            <!--for disable capacha-->
-            <!--<input type="hidden" name="_captcha" value="false">-->
-            <!--re direct page-->
-            <input type="hidden" name="_next" value="http://localhost:5501/contactUs/ContactUs.html">
-            <div class="inputGroup fullWidth">
-              <button type="submit">Send Message</button>
-            </div>
-
-          </form>
-
-          <!--  *******   Form Ends   *******  -->
-        </section>
-
-        <!--  *******   Right Section (Column) Ends   *******  -->
-
-      </main>
-    </div>
-
-
-  </section>
-
-
-
-
-
-  <!--script for togel menu-->
-
-  <script>
-    var navlinks = document.getElementById("navLinks");
-
-    function openMenu(){
-      navlinks.style.right = "0";
-    }
-
-    function hideMenu() {
-      navlinks.style.right = "-200px";
-    }
-
-    window.addEventListener('click' , () => {
-      document.getElementById("backMusic").play();
-    });
-  </script>
-</body>
-
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+  </body>
 </html>

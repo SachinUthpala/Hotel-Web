@@ -24,6 +24,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
+
+      <div id="preloader">
+      </div>
+
     <section class="header">
       <video autoplay loop muted plays-inline class="back-vedio">
         <source src="../Img/back.mp4" />
@@ -163,5 +167,14 @@
         document.getElementById("backMusic").play();
       });
     </script>
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load", function () {
+    loader.style.display = "none";
+  })
+</script>
+
+
+
   </body>
 </html>
