@@ -758,6 +758,11 @@ ul li a{
     justify-content: center;
     padding: 0px;
   }
+
+    #preloader{
+      width: 100%;
+      height: auto;
+    }
 }
 
 
