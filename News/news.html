@@ -24,9 +24,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-
-      <div id="preloader">
-      </div>
+    <div id="preloader"></div>
 
     <section class="header">
       <video autoplay loop muted plays-inline class="back-vedio">
@@ -69,7 +67,18 @@
 
     <!--section 2-->
     <section class="sec02">
+      <div class="activities">
 
+      </div>
+      <div class="events">
+
+      </div>
+      <div class="beautifulplaces">
+
+      </div>
+      <div class="nearestplaces">
+        
+      </div>
     </section>
     <!--end of section 2-->
 
@@ -173,14 +182,11 @@
         document.getElementById("backMusic").play();
       });
     </script>
-<script>
-  var loader = document.getElementById("preloader");
-  window.addEventListener("load", function () {
-    loader.style.display = "none";
-  })
-</script>
-
-
-
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>
