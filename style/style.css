@@ -525,7 +525,15 @@ ul li a{
 }
 
 
-
+/* css for pre loader */
+#preloader {
+  background: #083142 url(../Img/loading-1.gif) no-repeat center;
+  background-size: 30%;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+}
 
 
 /* for responsive */
@@ -766,15 +774,7 @@ ul li a{
 }
 
 
-/* css for pre loader */
-#preloader{
-  background: #083142 url(../Img/loading-1.gif) no-repeat center;
-  background-size: 30%;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: 1000;
-}
+
 
 
 
